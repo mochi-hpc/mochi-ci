@@ -6,6 +6,7 @@ HERE=`dirname "$0"`
 
 STATUS=0
 
+rm -rf $HOME/spack-cache
 export SPACK_DISABLE_LOCAL_CONFIG=true
 export SPACK_USER_CACHE_PATH=$HOME/spack-cache
 
